@@ -39,6 +39,7 @@ namespace NetworkProgrammingHW2
                 byte[] data=Encoding.UTF8.GetBytes(response);
                 stream.Write(data, 0, data.Length);
                 client.Close();
+
             }
         }
     }
